@@ -15,24 +15,24 @@ class Config(object):
     
     
     # get API_ID, API_HASH values from my.telegram.org (Mandatory)
-    API_ID = os.environ.get("API_ID")
-    API_HASH = os.environ.get("API_HASH")
+    API_ID = os.environ.get("18563373")
+    API_HASH = os.environ.get("5020a93006b07645b5ce3d8ad5a0cea5")
     
     
     # add API_TOKEN from @botfather (Mandatory)
-    API_TOKEN = os.environ.get("API_TOKEN")
+    API_TOKEN = os.environ.get("5142088093:AAHfKa0oK9LBUhttdB0AGKP-_iwF202Yow8")
     
     
     # channel id for forced Subscription with -100 (Optional)
-    UPDATE_CHANNEL = os.environ.get("UPDATE_CHANNEL")
+    UPDATE_CHANNEL = os.environ.get("https://t.me/engineering_electrical9")
     
     
     # get convertAPI secret (Optional)
-    CONVERT_API = os.environ.get("CONVERT_API")
+    CONVERT_API = os.environ.get("Lr6Xjzmwb9QyqAYe")
     
     
     # set maximum file size for preventing overload (Optional)
-    MAX_FILE_SIZE = os.environ.get("MAX_FILE_SIZE")
+    MAX_FILE_SIZE = os.environ.get("12")
     
     
     # add admins Id list by space seperated (Optional)
