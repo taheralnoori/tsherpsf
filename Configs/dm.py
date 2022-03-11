@@ -39,7 +39,7 @@ class Config(object):
     ADMINS = list(set(int(x) for x in os.environ.get("ADMINS", "0").split()))
     if ADMINS:
         # Bot only for admins [True/False] (Optional)
-        ADMIN_ONLY = os.environ.get("ADMIN_ONLY", False)
+        ADMIN_ONLY = os.environ.get("mn_ja", False)
     
     
     # banned Users cant use this bot (Optional)
